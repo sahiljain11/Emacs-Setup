@@ -1,290 +1,290 @@
-((("to_s" .
+((("line" .
+   [1 0 0 0])
+  ("push" .
+   [1 0 0 0])
+  ("stop" .
    [2 0 0 0])
-  ("result" .
-   [11 0 0 0 0 0])
-  ("factors" .
-   [2 0 0 1 0 0 0])
-  ("array" .
-   [2 0 0 0 0])
-  ("fetch" .
-   [1 0 0 0 0])
-  ("load-library" .
-   [0 0 0 0 0 0 1 0 0 0 0 0])
-  ("dired-mode" .
-   [1 0 0 0 0 0 0 0 0 0])
-  (":hook" .
-   [1 0 0 0 0])
-  ("all-the-icons-dired-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0])
-  ("all-the-icons" .
-   [0 0 0 0 0 0 0 1 0 1 0 0 1])
-  ("use-package" .
-   [0 0 0 0 0 0 0 1 1 0 0])
-  ("font-lock" .
-   [1 0 0 0 0 0 0 0 0])
-  ("agenda" .
-   [1 0 0 0 0 0])
-  ("dashboard-set-file-icons" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("recents" .
-   [1 0 0 0 0 0 0])
-  ("dashboard-set-heading-icons" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("dashboard-items" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
-  ("dashboard-show-shortcuts" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("dashboard-center-content" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("default-directory" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("name" .
-   [1 0 0 0])
-  ("initial-buffer-choice" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("org-mode" .
-   [0 0 0 0 0 0 1 0])
-  ("org-log-done" .
-   [1 0 0 0 0 0 0 0 0 1 0 0])
-  ("org" .
-   [1 0 1])
-  ("element" .
-   [1 0 0 0 0 0 0])
-  ("splitted" .
-   [2 0 0 0 0 0 0 0])
-  ("allStringVectors" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("scoreTensors" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("commentTensors" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("score" .
-   [1 0 0 0 0])
-  ("tensor2d" .
-   [1 0 0 0 0 0 0 0])
-  ("sarcastic" .
-   [0 0 0 1 0 0 0 0 0])
-  ("sarcasticComments" .
-   [0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 0 0])
-  ("sarcasticScore" .
-   [0 0 0 0 0 0 0 1 0 0 0 1 0 0])
-  ("addString" .
-   [2 0 0 1 1 0 0 0 0])
-  ("messageSplitted" .
-   [0 0 0 0 0 0 1 2 0 0 0 0 0 0 0])
-  ("csv" .
-   [1 0 0])
-  ("split" .
-   [0 0 0 1 0])
-  ("csvSplitted" .
-   [0 0 0 0 0 0 1 0 0 1 0])
-  ("nextLine" .
-   [1 0 0 0 0 0 0 0])
-  ("hasNext" .
-   [1 0 0 0 1 0 0])
-  ("textReader" .
-   [0 0 0 1 3 0 0 0 0 0])
-  ("while" .
-   [3 0 0 0 0])
-  ("HashMap" .
-   [1 0 0 0 0 0 0])
-  ("dictionary" .
-   [0 0 0 1 1 1 0 0 0 0])
-  ("import" .
-   [1 0 0 0 0 0])
-  ("new" .
-   [1 0 0])
-  ("Scanner" .
-   [4 0 0 0 0 0 0])
-  ("public" .
-   [1 0 0 0 0 0])
-  ("input" .
-   [10 0 0 0 0])
-  ("String" .
-   [13 0 0 0 0 0])
-  ("fileWriter" .
-   [0 0 0 1 1 0 0 0 0 0])
-  ("FileWriter" .
-   [2 0 0 0 0 0 0 0 0 0])
-  ("Links" .
-   [1 0 0 0 0])
-  ("Correct" .
-   [1 0 0 0 0 0 0])
-  ("All" .
-   [1 0 0])
-  ("filterLinks" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("return" .
-   [1 0 0 0 0 0])
-  ("fileName" .
-   [3 0 0 0 0 0 0 0])
-  ("correctLink" .
-   [0 0 0 3 0 0 0 0 0 0 0])
-  ("pageLink" .
-   [1 0 0 0 1 0 0 0])
-  ("page" .
-   [1 0 0 0])
-  ("tf" .
+  ("operation" .
+   [2 0 0 0 0 0 0 0 0])
+  ("inhibit-compacting-font-caches" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("dashboard-startup-banner" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("hi" .
    [1 0])
-  ("fs" .
-   [1 0])
-  ("txt" .
-   [3 0 0])
-  ("websites" .
-   [3 0 0 0 0 0 0 0])
-  ("readFile" .
-   [5 0 0 0 1 0 0 1])
-  ("util" .
-   [6 0 0 0])
-  ("js2-refractor" .
+  ("ac-robe-setup" .
    [0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("js2-mode-hook" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("add-hook" .
-   [2 0 0 0 0 2 0 0])
-  ("js2-mode" .
-   [1 0 0 1 0 0 0 0])
-  ("auto-mode-alist" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("require" .
-   [8 0 0 0 0 0 0])
-  ("tool-bar-mode" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("toggle-scroll-bar" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("menu-bar-mode" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("length" .
-   [2 0 1 0 3 0])
-  ("blockArray" .
-   [1 0 0 0 0 1 0 0 0 0])
-  ("dragon-ruby" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("fancy" .
-   [1 0 0 0 0])
-  ("interactive" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("defun" .
-   [1 0 0 0 0])
-  ("find-file" .
-   [0 0 0 1 1 0 0 0 0])
-  ("font" .
-   [1 0 0 0])
-  ("default-frame-alist" .
-   [1 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0])
-  ("add-to-list" .
-   [2 0 0 0 0 0 2 0 0 0 1])
-  ("class" .
-   [0 0 0 0 1])
-  ("dragonRuby" .
-   [0 0 0 0 0 0 0 0 0 1])
-  ("custom-set-faces" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("custom-set-variables" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("initial-frame-alist" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("quote" .
-   [1 0 0 0 0])
-  ("fullscreen" .
-   [0 0 0 0 0 0 2 0 0 0])
-  ("ido-mode" .
-   [0 0 0 0 0 0 1 1])
-  ("setq" .
-   [15 0 0 0])
-  ("log" .
-   [12 0 0])
-  ("console" .
-   [20 0 0 0 0 0 0])
-  ("async" .
-   [11 0 0 0 0])
-  ("await" .
-   [19 0 0 0 0])
-  ("returnData" .
-   [7 0 0 2 0 0 0 1 1 1])
-  ("data" .
-   [8 0 0 0])
-  ("allCorrectLinks" .
-   [0 0 0 0 0 1 3 1 0 0 0 0 0 0 0])
-  ("readTextFile" .
-   [2 0 0 1 1 1 5 0 0 0 0 0])
-  ("promise" .
-   [1 0 0 0 0 0 0])
-  ("allPageLinks" .
-   [0 0 0 0 1 1 0 0 0 0 0 0])
-  ("join" .
-   [2 0 0 0])
-  ("watch" .
-   [0 0 1 0 0])
-  ("const" .
-   [2 0 0 0 0])
-  ("parseFile" .
+  ("robe-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("robe-mode" .
    [1 0 0 0 0 0 0 0 0])
-  ("promisify" .
-   [0 0 0 0 0 0 1 0 0])
-  ("temp" .
-   [1 0 0 0])
-  ("trainingData" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("correctedMessage" .
-   [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0])
-  ("messageArray" .
-   [0 0 0 0 1 0 0 0 0 0 0 0])
-  ("inputSplitted" .
-   [1 0 2 0 0 2 1 0 1 0 0 0 0])
-  ("addValue" .
-   [1 0 2 1 0 0 0 0])
-  ("maxVectorLength" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("else" .
-   [2 0 0 0])
-  ("writer" .
-   [3 0 0 0 0 0])
-  ("write" .
-   [2 0 0 0 0])
-  ("define-key" .
+  ("ruby-mode-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ruby-mode" .
+   [0 0 0 0 0 0 0 0 1])
+  ("initial-major-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("nil" .
+   [2 0 0])
+  ("initial-scratch-message" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("initialization" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("init-file-user" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("inhibit-splash-screen" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("org-agenda" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("org-store-link" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("global-map" .
    [2 0 0 0 0 0 0 0 0 0])
   ("global" .
    [1 0 0 0 0 0])
-  ("global-map" .
+  ("define-key" .
    [2 0 0 0 0 0 0 0 0 0])
-  ("org-store-link" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("org-agenda" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("inhibit-splash-screen" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("init-file-user" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("initialization" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("initial-scratch-message" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("nil" .
-   [2 0 0])
-  ("initial-major-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("ruby-mode" .
-   [0 0 0 0 0 0 0 0 1])
-  ("ruby-mode-hook" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("robe-mode" .
-   [1 0 0 0 0 0 0 0 0])
-  ("robe-mode-hook" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("ac-robe-setup" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("hi" .
-   [1 0])
-  ("dashboard-startup-banner" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("inhibit-compacting-font-caches" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("operation" .
-   [2 0 0 0 0 0 0 0 0])
-  ("stop" .
+  ("write" .
+   [2 0 0 0 0])
+  ("writer" .
+   [3 0 0 0 0 0])
+  ("else" .
    [2 0 0 0])
-  ("push" .
+  ("maxVectorLength" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("addValue" .
+   [1 0 2 1 0 0 0 0])
+  ("inputSplitted" .
+   [1 0 2 0 0 2 1 0 1 0 0 0 0])
+  ("messageArray" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("correctedMessage" .
+   [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0])
+  ("trainingData" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("temp" .
    [1 0 0 0])
-  ("line" .
-   [1 0 0 0])))
+  ("promisify" .
+   [0 0 0 0 0 0 1 0 0])
+  ("parseFile" .
+   [1 0 0 0 0 0 0 0 0])
+  ("const" .
+   [2 0 0 0 0])
+  ("watch" .
+   [0 0 1 0 0])
+  ("join" .
+   [2 0 0 0])
+  ("allPageLinks" .
+   [0 0 0 0 1 1 0 0 0 0 0 0])
+  ("promise" .
+   [1 0 0 0 0 0 0])
+  ("readTextFile" .
+   [2 0 0 1 1 1 5 0 0 0 0 0])
+  ("allCorrectLinks" .
+   [0 0 0 0 0 1 3 1 0 0 0 0 0 0 0])
+  ("data" .
+   [8 0 0 0])
+  ("returnData" .
+   [7 0 0 2 0 0 0 1 1 1])
+  ("await" .
+   [19 0 0 0 0])
+  ("async" .
+   [11 0 0 0 0])
+  ("console" .
+   [20 0 0 0 0 0 0])
+  ("log" .
+   [12 0 0])
+  ("setq" .
+   [15 0 0 0])
+  ("ido-mode" .
+   [0 0 0 0 0 0 1 1])
+  ("fullscreen" .
+   [0 0 0 0 0 0 2 0 0 0])
+  ("quote" .
+   [1 0 0 0 0])
+  ("initial-frame-alist" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("custom-set-variables" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("custom-set-faces" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("dragonRuby" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("class" .
+   [0 0 0 0 1])
+  ("add-to-list" .
+   [2 0 0 0 0 0 2 0 0 0 1])
+  ("default-frame-alist" .
+   [1 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0])
+  ("font" .
+   [1 0 0 0])
+  ("find-file" .
+   [0 0 0 1 1 0 0 0 0])
+  ("defun" .
+   [1 0 0 0 0])
+  ("interactive" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("fancy" .
+   [1 0 0 0 0])
+  ("dragon-ruby" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("blockArray" .
+   [1 0 0 0 0 1 0 0 0 0])
+  ("length" .
+   [2 0 1 0 3 0])
+  ("menu-bar-mode" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("toggle-scroll-bar" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("tool-bar-mode" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("require" .
+   [8 0 0 0 0 0 0])
+  ("auto-mode-alist" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("js2-mode" .
+   [1 0 0 1 0 0 0 0])
+  ("add-hook" .
+   [2 0 0 0 0 2 0 0])
+  ("js2-mode-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("js2-refractor" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("util" .
+   [6 0 0 0])
+  ("readFile" .
+   [5 0 0 0 1 0 0 1])
+  ("websites" .
+   [3 0 0 0 0 0 0 0])
+  ("txt" .
+   [3 0 0])
+  ("fs" .
+   [1 0])
+  ("tf" .
+   [1 0])
+  ("page" .
+   [1 0 0 0])
+  ("pageLink" .
+   [1 0 0 0 1 0 0 0])
+  ("correctLink" .
+   [0 0 0 3 0 0 0 0 0 0 0])
+  ("fileName" .
+   [3 0 0 0 0 0 0 0])
+  ("return" .
+   [1 0 0 0 0 0])
+  ("filterLinks" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("All" .
+   [1 0 0])
+  ("Correct" .
+   [1 0 0 0 0 0 0])
+  ("Links" .
+   [1 0 0 0 0])
+  ("FileWriter" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("fileWriter" .
+   [0 0 0 1 1 0 0 0 0 0])
+  ("String" .
+   [13 0 0 0 0 0])
+  ("input" .
+   [10 0 0 0 0])
+  ("public" .
+   [1 0 0 0 0 0])
+  ("Scanner" .
+   [4 0 0 0 0 0 0])
+  ("new" .
+   [1 0 0])
+  ("import" .
+   [1 0 0 0 0 0])
+  ("dictionary" .
+   [0 0 0 1 1 1 0 0 0 0])
+  ("HashMap" .
+   [1 0 0 0 0 0 0])
+  ("while" .
+   [3 0 0 0 0])
+  ("textReader" .
+   [0 0 0 1 3 0 0 0 0 0])
+  ("hasNext" .
+   [1 0 0 0 1 0 0])
+  ("nextLine" .
+   [1 0 0 0 0 0 0 0])
+  ("csvSplitted" .
+   [0 0 0 0 0 0 1 0 0 1 0])
+  ("split" .
+   [0 0 0 1 0])
+  ("csv" .
+   [1 0 0])
+  ("messageSplitted" .
+   [0 0 0 0 0 0 1 2 0 0 0 0 0 0 0])
+  ("addString" .
+   [2 0 0 1 1 0 0 0 0])
+  ("sarcasticScore" .
+   [0 0 0 0 0 0 0 1 0 0 0 1 0 0])
+  ("sarcasticComments" .
+   [0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 0 0])
+  ("sarcastic" .
+   [0 0 0 1 0 0 0 0 0])
+  ("tensor2d" .
+   [1 0 0 0 0 0 0 0])
+  ("score" .
+   [1 0 0 0 0])
+  ("commentTensors" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("scoreTensors" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("allStringVectors" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("splitted" .
+   [2 0 0 0 0 0 0 0])
+  ("element" .
+   [1 0 0 0 0 0 0])
+  ("org" .
+   [1 0 1])
+  ("org-log-done" .
+   [1 0 0 0 0 0 0 0 0 1 0 0])
+  ("org-mode" .
+   [0 0 0 0 0 0 1 0])
+  ("initial-buffer-choice" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("name" .
+   [1 0 0 0])
+  ("default-directory" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("dashboard-center-content" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("dashboard-show-shortcuts" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("dashboard-items" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("dashboard-set-heading-icons" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("recents" .
+   [1 0 0 0 0 0 0])
+  ("dashboard-set-file-icons" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("agenda" .
+   [1 0 0 0 0 0])
+  ("font-lock" .
+   [1 0 0 0 0 0 0 0 0])
+  ("use-package" .
+   [0 0 0 0 0 0 0 1 1 0 0])
+  ("all-the-icons" .
+   [0 0 0 0 0 0 0 1 0 1 0 0 1])
+  ("all-the-icons-dired-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0])
+  (":hook" .
+   [1 0 0 0 0])
+  ("dired-mode" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("load-library" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("fetch" .
+   [1 0 0 0 0])
+  ("array" .
+   [2 0 0 0 0])
+  ("factors" .
+   [2 0 0 1 0 0 0])
+  ("result" .
+   [11 0 0 0 0 0])
+  ("to_s" .
+   [2 0 0 0])))
