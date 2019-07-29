@@ -71,15 +71,9 @@
 (menu-bar-mode -1)
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
-;(custom-set-variables 
-; '(package-selected-packages
-;   (quote
-;    (use-package ivy evil-leader evil-escape auto-complete))))
-;    (custom-set- 
-; )
 
-;(ido-mode 1)
-;(setq ido-separator "\n")
+(ido-mode 1)
+(setq ido-separator "\n")
 
 ;(require 'js2-mode)
 ; (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
@@ -99,13 +93,11 @@
  (define-key global-map "\C-ca" 'org-agenda)
  (setq org-log-done t)
 
-
-;(setq initial-buffer-choice "/Users/Sahil/Coding/Org/todo.org")
-
 (setq default-directory "C:/Users/Sahil/Coding/")
 
-; get all the icons
-; get emacs-dashboard
+
+
+
 
 (add-hook 'ruby-mode-hook 'robe-mode)
 (add-hook 'robe-mode-hook 'ac-robe-setup)
@@ -113,36 +105,40 @@
 ;(load-library "font-lock+")
 ;(load-library "font-lock")
 
-;require 'font-lock)
-;require 'font-lock+)
-;use-package all-the-icons)
-;use-package all-the-icons-dired
-; :hook (dired-mode . all-the-icons-dired-mode))
 
-(setq inhibit-compacting-font-caches t)
+;(require 'font-lock)
+;(require 'font-lock+)
+;(use-package 'all-the-icons)
+;(use-package 'all-the-icons-dired)
+;  :hook (dired-mode . all-the-icons-dired-mode))
 
+;(setq inhibit-compacting-font-caches t)
 
-(require 'dashboard)
-(dashboard-setup-startup-hook)
+(defun my/dashboard-banner ()
+  (setq dashboard-banner-logo-title
+	(format "Emacs ready in %.2f seconds with %d garbage collections."
+		(float-time (time-subtract after-init-time before-init-time)) gcs-done)))
 
 (use-package dashboard
+    :init
+    (add-hook 'after-init-hook 'dashboard-refresh-buffer)
+    (add-hook 'dashboard-mode-hook 'my/dashboard-banner)
     :ensure t
     :config
+    (setq dashboard-startup-banner 'logo)
     (dashboard-setup-startup-hook))
 
 (setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
 
-(setq dashboard-banner-logo-title "Hello sir")
-(setq dashboard-center-content t)
+;(setq dashboard-center-content t)
 
 (setq dashboard-items '((recents . 5)
 			(bookmarks . 5)
 			(projects . 5)
-			(agenda . 5)
-			(registers . 5)))
+			(agenda . 5)))
 
 ;(setq dashboard-set-heading-icons t)
-(setq dashboard-set-file-icons t)
+;(setq dashboard-set-file-icons t)
 
 (add-to-list 'dashboard-items '(agenda) t)
 
@@ -152,3 +148,10 @@
 
 ;(setq dashboard-startup-banner "/Users/Sahil/Downloads/ironmanbanner.png")
 
+(use-package spaceline
+  :ensure t
+  :config
+  (require 'spaceline-config)
+  (setq powerline-default-separator (quote arrow))
+  (spaceline-emacs-theme)
+  (setq spaceline-highlight-face-func 'spaceline-highlight-face-evil-state))
